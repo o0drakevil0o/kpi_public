@@ -1,0 +1,11 @@
+# HealthID
+SetEnv CLIENT_ID ""
+SetEnv CLIENT_SECRET ""
+#ProviderID
+SetEnv PROVIDER_CLIENT_ID ""
+SetEnv PROVIDER_CLIENT_SECRET ""
+
+SetEnv REDIRECT_URI "http://localhost/khongtun/frontend/web/index.php/site/callback-provider" 
+
+#SetEnv LOGIN_BASE_URL "http://localhost/ssj68/providerid/login?web="
+#SetEnv LOGIN_WEB_PAGE "http://localhost/ssj68/providerid/showInfo.php"
