@@ -83,7 +83,7 @@ class SignupForm extends Model
         // }
         
         $user = new User();
-        $security = new Security() ; 
+        // $security = new Security() ; 
 
         if($this->password === $this->repassword){
             $user->setPassword($this->password);
